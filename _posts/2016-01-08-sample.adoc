@@ -1,0 +1,19 @@
+---
+---
+= Sample Page
+:layout: page
+:permalink: /page/
+:date:   2016-01-08 15:04:23
+:categories: [jekyll]
+:tags: [jekyll]
+
+This is a sample page composed in AsciiDoc.
+Jekyll converts it to HTML using http://asciidoctor.org[Asciidoctor].
+
+[source,ruby]
+---
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+---

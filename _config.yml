@@ -1,0 +1,49 @@
+# Site settings
+title: Rodrigo Vallejo
+description: 'Software Developer'
+url: 'http://www.rodrigovallejo.com'
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Rodrigo Vallejo'
+  email: rvallejo@thoughtworks.com
+  twitter_username: rxvallejoc
+  facebook_username: rodrigo.vallejo
+  github_username:  rxvc
+  linkedin_username:  rxvallejoc
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate','jekyll-asciidoc']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+
+
+
+asciidoctor:
+  attributes:
+    - hardbreaks!
+    - source-highlighter=pygments
+    - pygments-css=style
+
+
