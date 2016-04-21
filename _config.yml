@@ -1,6 +1,6 @@
 # Site settings
 title: Rodrigo Vallejo
-description: 'Software Developer'
+description: 'Software Developer, Software Architect'
 url: 'http://www.rodrigovallejo.com'
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -37,8 +37,6 @@ kramdown:
 
 gems: ['jekyll-paginate','jekyll-asciidoc']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
-
-
 
 asciidoctor:
   attributes:
